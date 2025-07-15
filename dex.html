@@ -1,0 +1,209 @@
+<<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Alex Sena</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+
+
+        <div class="top-bar">home</div>
+
+        <section class="hero">
+            <div class="profile-pic"></div>
+            <h1 class="hero-title">hi, i’m alex!</h1>
+            <p class="tagline">welcome to my personal website! scroll down to check some things out </p>
+        </section>
+
+        <section class="menu">
+            <div class="menu-item" data-popup="about">
+                <div class="menu-icon">
+                    <img src="about.png" alt="about">
+                </div>
+                <div class="menu-text">
+                    <div class="menu-title">about</div>
+                    <div class="menu-desc">learn more about me! get to know some general information about me and who i
+                        am right now</div>
+                </div>
+            </div>
+            <div class="menu-item" data-popup="info">
+                <div class="menu-icon">
+                    <img src="thiswebsite.png" alt="thiswebsite">
+                </div>
+                <div class="menu-text">
+                    <div class="menu-title">this website</div>
+                    <div class="menu-desc">insight about why i created my own personal website</div>
+                </div>
+            </div>
+            <div class="menu-item" data-popup="works">
+                <div class="menu-icon">
+                    <img src="works.png" alt="works">
+                </div>
+                <div class="menu-text">
+                    <div class="menu-title">works</div>
+                    <div class="menu-desc">get a look into some of my projects and creations</div>
+                </div>
+            </div>
+            <div class="menu-item" data-popup="links">
+                <div class="menu-icon">
+                    <img src="links.png" alt="links">
+                </div>
+                <div class="menu-text">
+                    <div class="menu-title">links</div>
+                    <div class="menu-desc">some ways to reach out to me</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popups (unchanged) -->
+        <div class="popup-overlay" id="popup-about">
+            <div class="popup-content">
+                <div class="popup-header draggable-header">about</div>
+                <button class="close-button">✕</button>
+                <div class="popup-body">
+                    <div class="header">
+                        <h1 class="about-name">Alexandra Marie Sena</h1>
+                    </div>
+                    <p>Hey, I'm Alex! I am currently a high school student with many passions and interests. You can
+                        find me alone…
+                    </p>
+                    <ul>
+                        <li>learning new skills</li>
+                        <li>crocheting</li>
+                        <li>creating art</li>
+                        <li>playing music</li>
+                        <li>running in the neighborhood</li>
+                    </ul>
+                    <h2 class="about-sub">what else?</h2>
+                    <p>Another layer of me also has other interests and commitments such as...</p>
+                    <ul>
+                        <li>learning web development independently</li>
+                        <li>volunteering at my school or the hospital</li>
+                        <li>general psychology and human behavior</li>
+                        <li>helping lead the Filipino-American Club at my school</li>
+                        <li>studying for tests</li>
+                        <li>hanging out with my friends!</li>
+                    </ul>
+                    <h2 class="about-sub">language proficiency</h3>
+                        <p>I’m fluent in English, understand household Tagalog and I’ve been learning Mandarin!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-overlay" id="popup-info">
+            <div class="popup-content">
+                <div class="popup-header draggable-header">this website</div>
+                <button class="close-button">✕</button>
+                <div class="popup-body">
+                    <h2 class="about-sub">why did i make this website?</h2>
+                    <p>I’ve had a spark of interest in code in me for a while until I took VS.net in my sophomore year
+                        and swore never to code again. But then I hit a low point at the end of my junior year and found
+                        it again by suddenly seeing videos of people enjoying building their games and websites on
+                        Instagram reels. The interest was suddenly rekindled when my dad gave me a web development
+                        bootcamp on Udemy.
+                    </p>
+                    <p>This website is for me to learn something new not just about HTML, CSS, and JavaScript but also
+                        about myself as I compiled my personality with what I could do at the time. It is also a
+                        stepping stone for me to hopefully work on other projects important to me in the near future!
+                        Thank you for taking the time to go through my first ever website I hope this will leave a
+                        meaningful digital footprint when I look back.
+                    </p>
+                    <h2 class="about-sub">resources</h2>
+                    <p>Here are some of the resources I used to construct this website!</p>
+                    <ul>
+                        <li>Udemy: <a
+                                href="https://www.udemy.com/course/the-web-developer-bootcamp/?couponCode=24T3MT100725G1">The
+                                Web Developer Bootcamp 2025</a></li>
+                        <li>My main <a href="https://www.youtube.com/watch?v=_tWh4cYCTv0&t=34s">inspiration</a>, thank
+                            you sharyap!</li>
+                        <li>Figma</li>
+                        <li>Visual Studio</li>
+                        <li>Millanote</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-overlay" id="popup-works">
+            <div class="popup-content">
+                <div class="popup-header draggable-header">works</div>
+                <button class="close-button">✕</button>
+                <div class="popup-body">
+                    <div class="accordion">
+                        <button class="accordion-toggle">here are some of my crochet projects!</button>
+                        <div class="accordion-content">
+                            <div class="photo-grid">
+                                <img src="crochet_purse.png" alt="crochet 1">
+                                <img src="crochet_cardigan.jpeg" alt="crochet 2">
+                                <img src="crochet_star.png" alt="crochet 3">
+                                <img src="crochet_shoulder.jpg" alt="crochet 4">
+                                <img src="crochet_bow.png" alt="crochet 5">
+                                <img src="crochet_hawaii.png" alt="crochet 6">
+                                <img src="crochet_mermaid.png" alt="crochet 7">
+                                <img src="crochet_purple.jpg" alt="crochet 8">
+                                <img src="crochet_mesh.png" alt="crochet 9">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <button class="accordion-toggle">my favorite pieces of art</button>
+                        <div class="accordion-content">
+                            <div class="photo-grid">
+                                <img src="art_filam.jpeg" alt="art 1">
+                                <img src="art_orca.png" alt="art 2">
+                                <img src="art_print.png" alt="art 3">
+                                <img src="art_blue.png" alt="art 4">
+                                <img src="art_stamp.png" alt="art 5">
+                                <img src="art_study.png" alt="art 6">
+                                <img src="art_waterfall.png" alt="art 7">
+                                <img src="art_summer.jpeg" alt="art 8">
+                                <img src="art_black.png" alt="art 9">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <button class="accordion-toggle">some of my best photos</button>
+                        <div class="accordion-content">
+                            <div class="photo-grid">
+                                <img src="photo_ california.png" alt="photo 1">
+                                <img src="photo_car.png" alt="photo 2">
+                                <img src="photo_church.png" alt="photo 3">
+                                <img src="photo_dv.png" alt="photo 4">
+                                <img src="photo_france.png" alt="photo 5">
+                                <img src="photo_friends.png" alt="photo 6">
+                                <img src="photo_lourve.png" alt="photo 7">
+                                <img src="photo_lux.png" alt="photo 8">
+                                <img src="photo_miso.png" alt="photo 9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-overlay" id="popup-links">
+            <div class="popup-content">
+                <div class="popup-header draggable-header">links</div>
+                <button class="close-button">✕</button>
+                <div class="popup-body">
+                    <h2 class="about-sub">want to reach out?</h2>
+                    <ul>
+                        <li>send me an email at alexandracsena017@gmail.com!</li>
+                        <li>follow my instagram <a
+                                href="https://www.instagram.com/alex.andra.sena/?hl=en">@alex.andra.sena</a></li>
+                        <li>check out my <a href="https://www.pinterest.com/alixndrasena/">pinterest</a> </li>
+                        <li>listen to my playlists on <a
+                                href="https://open.spotify.com/user/7mhvla3rsl10tjvvdipcxi4t5">spotify!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
